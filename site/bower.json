@@ -1,0 +1,12 @@
+{
+  "name": "web2day-2016-apache-zeppelin",
+  "version": "1.0",
+  "license": "CC",
+  "description": "Demo of the talk 'Big Data Viz with Apache Zeppelin'",
+  "authors": [
+    "Bruno Bonnin"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}
