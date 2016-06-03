@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Bank">
+    <meta name="author" content="BBO">
+
+    <title>My Company</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="styles/mycompany.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe"></span> My Company</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Data</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to My Company!</h1>
+        <p>Here, you will find some statistics about My Company's data.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Charge points: Providers</h2>
+          <iframe class="my-map" src="http://192.168.56.1:8000/#/notebook/2BMXSE5D2/paragraph/20160519-165410_1105110524?asIframe"></iframe>
+        </div>
+        <div class="col-md-6">
+          <h2>Charge points: Location</h2>
+          <iframe class="my-map" src="http://192.168.56.1:8000/#/notebook/2BMXSE5D2/paragraph/20160519-175034_779917343?asIframe"></iframe>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>© 2016 My Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="libs/jquery/jquery.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
